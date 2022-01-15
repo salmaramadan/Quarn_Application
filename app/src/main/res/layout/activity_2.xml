@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".Activity2">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            app:icon="?attr/actionModeCloseDrawable"
+            app:iconTint="#130202" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            app:srcCompat="@drawable/pic2"
+            tools:layout_conversion_absoluteHeight="561dp"
+            tools:layout_conversion_absoluteWidth="562dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="216dp" />
+
+        <Button
+            android:id="@+id/download2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Verses Explanation"
+            android:textColor="#130606"
+            android:textStyle="bold"
+            app:icon="@android:drawable/stat_sys_download"
+            app:iconTint="#1C0404" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/stopmusic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Stop"
+                android:textColor="#150D0D"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:icon="@android:drawable/radiobutton_off_background"
+                app:iconTint="#100301"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.433"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.165"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/playmusic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="play"
+                android:textColor="#150D0D"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:icon="@android:drawable/ic_media_play"
+                app:iconTint="#100301"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.433"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.165"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

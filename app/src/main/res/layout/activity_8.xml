@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".Activity8">
+
+
+    <Button
+        android:id="@+id/back8"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconTint="#130202" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top"
+        android:foregroundGravity="fill"
+        android:layoutDirection="rtl"
+        android:scrollbarAlwaysDrawVerticalTrack="false">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill">
+
+            <ImageView
+                android:id="@+id/imageView8_1"
+                android:layout_width="500dp"
+                android:layout_height="650dp"
+                android:layout_gravity="right|top"
+                android:foregroundGravity="top|right"
+                android:layoutDirection="rtl"
+                android:scaleX="1.1"
+                android:scaleY="1.12"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:translationX="56dp"
+                android:translationY="1dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/pic571" />
+
+            <ImageView
+                android:id="@+id/imageView8_2"
+                android:layout_width="500dp"
+                android:layout_height="650dp"
+                android:layout_gravity="right|top"
+                android:foregroundGravity="top|right"
+                android:layoutDirection="rtl"
+                android:scaleX="1.1"
+                android:scaleY="1.12"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:translationX="30dp"
+                android:translationY="1dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/pic572" />
+
+            <ImageView
+                android:id="@+id/imageView8_3"
+                android:layout_width="500dp"
+                android:layout_height="650dp"
+                android:layout_gravity="right|top"
+                android:foregroundGravity="top|right"
+                android:layoutDirection="rtl"
+                android:scaleX="1.1"
+                android:scaleY="1.12"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:translationX="30dp"
+                android:translationY="1dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/pic573" />
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/download8"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="35dp"
+                    android:text="Verses Explanation"
+                    android:textColor="#130606"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:icon="@android:drawable/stat_sys_download"
+                    app:iconTint="#1C0404" />
+
+                <Button
+                    android:id="@+id/playmusic8"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="play"
+                    android:textColor="#150D0D"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconTint="#100301"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.433"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.165"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/stopmusic8"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/roundedbutton"
+                    android:text="Stop"
+                    android:textColor="#150D0D"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:icon="@android:drawable/radiobutton_off_background"
+                    app:iconTint="#100301"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.433"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.165"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
